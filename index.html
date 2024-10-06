@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahid Fitness</title>
+    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            body{
+                font-family: "Bebas Neue", sans-serif;
+                color: white;
+                margin: 0px;
+                padding: 0px;
+                background: url('img/bg.jpg');
+            }
+            .left{
+                position: absolute;
+                left: 60px;
+                top: 20px;
+                display: inline-block;
+        
+            }
+            .left img{
+                width: 136px;
+            }
+            .left div{
+                line-height: 19px;
+                font-size: 26px;
+                text-align: center;
+            }
+            .mid{
+                display: block;
+                width: 36%;
+                margin: 30px auto;
+
+            }
+            .right{
+                position: absolute;
+                right: 34px;
+                top: 43px;
+                display: inline-block;
+            }
+            .navbar{
+                display: inline-block;
+
+            }
+            .navbar li{
+                display: inline-block;
+                font-size: 25px;
+            }
+            .navbar li a{
+                color: white;
+                text-decoration: none;
+                padding: 34px 23px;
+            }
+            .navbar li a:hover, .navbar li a.active{
+                text-decoration: underline;
+                color: grey;
+               
+            }
+            .btn{
+                font-family: "Bebas Neue", sans-serif;
+                margin: 0px 9px;
+                color: white;
+                background-color: black;
+                padding: 4px 14px;
+                border: 2px solid grey;
+                border-radius: 10px;
+                font-size: 20px;
+                cursor: pointer;
+            }
+            .btn:hover{
+                background-color: rgb(31, 29, 29);
+            }
+            .container{
+                border: 2px solid white;
+                margin: 106px 80px;
+                padding: 75px;
+                width: 33%;
+                border-radius: 28px;
+
+            }
+            .form-group input{
+                font-family: "Bebas Neue", sans-serif;
+                text-align: center;
+                display: block;
+                width: 510px;
+                padding: 1px;
+                border: 2px solid black;
+                margin: 12px auto;
+                font-size: 27px;
+                border-radius: 8px;
+            }
+            .container h1{
+                text-align: center;
+
+            }
+            .container button{
+                display: block;
+                width: 74%;
+                margin: 20px auto;
+            }
+        </style>
+<body>
+    <header class="header">
+        <div class="left">
+       <img src="img/gy.jpg" alt="">
+       <div>Zahid Fitness</div>
+            </div>
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Fitness Calculator</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+            </div>
+    </header>
+    <div class="container">
+<h1>Join THE BEST GYM OF BANGLORE</h1>
+<form action="noaction.php">
+    <div class="form-group">
+        <input type="text" name=""placeholder="Enter your name">
+    </div>
+    <div class="form-group">
+        <input type="text" name=""placeholder="Enter your AGE">
+    </div>
+    <div class="form-group">
+        <input type="text" name=""placeholder="Enter your GENDER">
+    </div>
+    <div class="form-group">
+        <input type="text" name=""placeholder="Enter your LOCALITY">
+    </div>
+    <div class="form-group">
+        <input type="text" name=""placeholder="Enter your PHONE NUMBER">
+    </div>
+    <div class="form-group">
+        <input type="text" name=""placeholder="Enter your EMAIL ID">
+    </div>
+    <button class="btn">Submit</button>
+</form>
+    </div>
+    
+</body>
+</html>
+ 
